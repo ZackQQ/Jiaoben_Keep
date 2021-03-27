@@ -11,10 +11,10 @@ author_list="shylocks whyour 799953468 i-chenzhe"
 # 2.将地址最后的 “脚本名称+后缀” 剪切到下一个变量里（my_scripts_list_xxx）
 
 ## 测试使用github地址
-scripts_base_url_1=https://raw.githubusercontent.com/ZackQQ/Jiaoben_Keep/main/diy/diy_scripts/
-scripts_base_url_2=https://raw.githubusercontent.com/ZackQQ/Jiaoben_Keep/main/diy/diy_scripts/
-scripts_base_url_3=https://raw.githubusercontent.com/ZackQQ/Jiaoben_Keep/main/diy/diy_scripts/
-scripts_base_url_4=https://raw.githubusercontent.com/ZackQQ/Jiaoben_Keep/main/diy/diy_scripts/
+scripts_base_url_1=https://cdn.jsdelivr.net/gh/ZackQQ/Jiaoben_Keep@latest/diy/diy_scripts/
+scripts_base_url_2=https://cdn.jsdelivr.net/gh/ZackQQ/Jiaoben_Keep@latest/diy/diy_scripts/
+scripts_base_url_3=https://cdn.jsdelivr.net/gh/ZackQQ/Jiaoben_Keep@latest/diy/diy_scripts/
+scripts_base_url_4=https://cdn.jsdelivr.net/gh/ZackQQ/Jiaoben_Keep@latest/diy/diy_scripts/
 
 ## 添加更多脚本地址URL示例：scripts_base_url_3=https://raw.sevencdn.com/whyour/hundun/master/quanx/
 
