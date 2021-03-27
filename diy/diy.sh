@@ -101,8 +101,8 @@ sed -i "s|bash jd jd_superDay|bash ${ShellDir}/jd.sh jd_superDay|g" ${ListCron}
 sed -i "s|bash jd jd_xmf|bash ${ShellDir}/jd.sh jd_xmf|g" ${ListCron}
 sed -i "s|bash jd jd_wish|bash ${ShellDir}/jd.sh jd_wish|g" ${ListCron}
 sed -i "s|bash jd jd_lenovo|bash ${ShellDir}/jd.sh jd_lenovo|g" ${ListCron}
-sed -i "s|bash jd jd_mother_jump|bash ${ShellDir}/jd.sh jd_mother_jump|g" ${ListCron}
+#sed -i "s|bash jd jd_mother_jump|bash ${ShellDir}/jd.sh jd_mother_jump|g" ${ListCron}
 sed -i "s|bash jd jd_oneplus|bash ${ShellDir}/jd.sh jd_oneplus|g" ${ListCron}
 #sed -i "s|bash jd jd_mgold|bash ${ShellDir}/jd.sh jd_mgold|g" ${ListCron}
-sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
+#sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
 #sed -i "s|bash jd jd_grassy|bash ${ShellDir}/jd.sh jd_grassy|g" ${ListCron}
