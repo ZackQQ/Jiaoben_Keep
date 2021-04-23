@@ -23,12 +23,12 @@ scripts_base_url_4=https://cdn.jsdelivr.net/gh/ZackQQ/Jiaoben_Keep@latest/diy/di
 my_scripts_list_1="jd_jdaxc.js jd_xxl_gh.js"
 my_scripts_list_2="jd_factory_component.js"
 my_scripts_list_3="jd_paopao.js"
-my_scripts_list_4="jd_shake.js jd_marketLottery.js jd_xmf.js jd_health.js"
+my_scripts_list_4="jd_shake.js jd_marketLottery.js jd_xmf.js jd_health.js jd_health_collect.sh"
 
 ## 活动脚本名称1：东东爱消除、个护爱消除
 ## 活动脚本名称2：京喜工厂Plus
 ## 活动脚本名称3：京东泡泡大战
-## 活动脚本名称4：超级摇一摇、京东超市-大转盘、东东健康
+## 活动脚本名称4：超级摇一摇、京东超市-大转盘、东东健康、健康社区领能量
 
 ## 由于CDN代理无法实时更新文件内容，目前使用本人的脚本收集库以解决不能访问 Github 的问题
 
@@ -99,6 +99,7 @@ sed -i "s|bash jd jd_marketLottery|bash ${ShellDir}/jd.sh jd_marketLottery|g" ${
 #sed -i "s|bash jd jd_superDay|bash ${ShellDir}/jd.sh jd_superDay|g" ${ListCron}
 sed -i "s|bash jd jd_xmf|bash ${ShellDir}/jd.sh jd_xmf|g" ${ListCron}
 sed -i "s|bash jd jd_health|bash ${ShellDir}/jd.sh jd_health|g" ${ListCron}
+sed -i "s|bash jd jd_health_collect|bash ${ShellDir}/jd.sh jd_health_collect|g" ${ListCron}
 #sed -i "s|bash jd jd_mgold|bash ${ShellDir}/jd.sh jd_mgold|g" ${ListCron}
 #sed -i "s|bash jd jd_city_cash|bash ${ShellDir}/jd.sh jd_city_cash|g" ${ListCron}
 #sed -i "s|bash jd jd_grassy|bash ${ShellDir}/jd.sh jd_grassy|g" ${ListCron}
